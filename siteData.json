@@ -11,7 +11,8 @@
         "jane-doe": "Jane Doe",
         "johnny-doe": "Johnny Doe",
         "izzat-syazani": "Izzat Syazani",
-        "zhou-zibo": "Zhou Zibo"
+        "zhou-zibo": "Zhou Zibo",
+        "yaswitha-nalluri": "Yaswitha Nalluri"
       },
       "headingKeywords": {}
     },
@@ -141,6 +142,11 @@
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/yaswitha.md",
+      "headings": {},
       "headingKeywords": {}
     },
     {
