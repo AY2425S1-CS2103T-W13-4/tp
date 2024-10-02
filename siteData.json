@@ -11,7 +11,7 @@
         "jane-doe": "Jane Doe",
         "johnny-doe": "Johnny Doe",
         "izzat-syazani": "Izzat Syazani",
-        "james-doe": "James Doe"
+        "zhou-zibo": "Zhou Zibo"
       },
       "headingKeywords": {}
     },
@@ -145,6 +145,11 @@
     },
     {
       "src": "team/ywllowsensor.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/zibo.md",
       "headings": {},
       "headingKeywords": {}
     }
