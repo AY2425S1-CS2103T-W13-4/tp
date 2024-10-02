@@ -7,7 +7,7 @@
       "headings": {
         "about-us": "About Us",
         "project-team": "Project team",
-        "john-doe": "John Doe",
+        "sirui-li": "Sirui Li",
         "jane-doe": "Jane Doe",
         "johnny-doe": "Johnny Doe",
         "izzat-syazani": "Izzat Syazani",
@@ -142,6 +142,11 @@
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/siriousguy.md",
+      "headings": {},
       "headingKeywords": {}
     },
     {
