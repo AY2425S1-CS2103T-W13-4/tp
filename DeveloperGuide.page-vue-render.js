@@ -329,7 +329,7 @@ with(this){return _c('ol',[_c('li',[_v("The system should work on any "),_c('em'
 with(this){return _c('h3',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#glossary","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, MacOS")]),_v(" "),_c('li',[_c('strong',[_v("Private contact detail")]),_v(": A contact detail that is not meant to be shared with others")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("Contact")]),_v(": An individual or organization associated with wedding planning, such as a client or vendor.")]),_v(" "),_c('li',[_c('strong',[_v("Vendor:")]),_v(": A service provider for weddings, e.g., caterers, florists, or photographers.")]),_v(" "),_c('li',[_c('strong',[_v("Event Tag:")]),_v(" A label assigned to a contact to associate them with a specific wedding event, can be assigned to\nmultiple contacts involved in the same wedding event.")]),_v(" "),_c('li',[_c('strong',[_v("Priority:")]),_v(" The relative importance of a user story or task, often categorized as must-have, should-have,\nor could-have.")]),_v(" "),_c('li',[_c('strong',[_v("Success/Failure Messages:")]),_v(" Feedback provided to the user indicating the outcome of a command\n(e.g., contact successfully added or an error message).")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing"}},[_c('strong',[_v("Appendix: Instructions for manual testing")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-instructions-for-manual-testing","onclick":"event.stopPropagation()"}})])}
@@ -353,6 +353,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 3 Oct 2024, 23:57:20 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 3 Oct 2024, 23:58:02 GMT+8]")])])])}
 }];
   
