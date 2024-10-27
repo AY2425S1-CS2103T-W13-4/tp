@@ -71,7 +71,11 @@
       "src": "Documentation.md",
       "title": "Documentation guide",
       "headings": {
-        "documentation-guide": "Documentation Guide"
+        "documentation-guide": "Documentation Guide",
+        "adding-new-sections": "Adding New Sections",
+        "updating-existing-sections": "Updating Existing Sections",
+        "testing-documentation-changes": "Testing Documentation Changes",
+        "submitting-documentation-changes": "Submitting Documentation Changes"
       },
       "headingKeywords": {}
     },
@@ -135,9 +139,14 @@
     },
     {
       "src": "index.md",
-      "title": "",
+      "title": "Knotty Planner - Your Ultimate Wedding Planning Companion",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "knotty-planner": "Knotty Planner 💍🎀",
+        "making-wedding-planning-a-breeze": "Making Wedding Planning a Breeze! 🎉",
+        "features": "Features",
+        "why-choose-knotty-planner": "Why Choose Knotty Planner?",
+        "why-wait": "Why Wait?",
+        "acknowledgements": "Acknowledgements"
       },
       "headingKeywords": {}
     },
