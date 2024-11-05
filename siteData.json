@@ -113,7 +113,8 @@
       "headings": {
         "knotty-planner": "Knotty Planner 💍🎀",
         "table-of-contents": "Table of Contents",
-        "quick-start": "Quick Start",
+        "quick-start-non-technical-users": "Quick Start (Non-technical Users)",
+        "quick-start-technical-users": "Quick Start (Technical Users)",
         "command-summary": "Command summary",
         "features": "Features",
         "viewing-help-help": "Viewing Help : help",
@@ -147,7 +148,7 @@
         "making-wedding-planning-a-breeze": "Making Wedding Planning a Breeze! 🎉",
         "features": "Features",
         "why-choose-knotty-planner": "Why Choose Knotty Planner?",
-        "why-wait-get-started-today": "Why Wait? Get Started Today! 🎉",
+        "get-started-today": "Get Started Today! 🎉",
         "acknowledgements": "Acknowledgements 🙏",
         "contributors": "Contributors 🌟",
         "join-our-community": "Join Our Community! 🌐",
