@@ -89,7 +89,11 @@ public class TagAddCommand extends Command {
         model.setPerson(personToEdit, editedPerson);
         model.updateFilteredPersonList(PREDICATE_SHOW_ALL_PERSONS);
 
-        return new CommandResult(message + generateSuccessMessage(personToEdit, editedPerson));
+        if (message.isEmpty()) {
+            return new CommandResult(generateSuccessMessage(personToEdit, editedPerson));
+        } else {
+            return new CommandResult(message + generateSuccessMessage(personToEdit, editedPerson));
+        }
     }
 
     @Override
@@ -124,7 +128,6 @@ public class TagAddCommand extends Command {
         if (!personToEdit.getTags().containsAll(tagsToAdd)) {
             tagsInBoth.retainAll(tagsToAdd); // duplicates that we don't want to add
             tagsInNeither.removeAll(tagsInBoth); // new tags minus the duplicates that we want to add
-
             if (tagsInBoth.isEmpty() && !tagsToAdd.isEmpty()) {
                 // if there are no duplicates, this is a clean addition
                 return String.format(MESSAGE_ADD_TAG_SUCCESS, Messages.tagSetToString(tagsToAdd),
