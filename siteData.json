@@ -111,7 +111,7 @@
       "src": "UserGuide.md",
       "title": "User Guide",
       "headings": {
-        "knotty-planner": "Knotty Planner 💍🎀",
+        "knottyplanners": "KnottyPlanners 💍🎀",
         "table-of-contents": "Table of Contents",
         "quick-start-non-technical-users": "Quick Start (Non-technical Users)",
         "quick-start-technical-users": "Quick Start (Technical Users)",
@@ -142,12 +142,12 @@
     },
     {
       "src": "index.md",
-      "title": "Knotty Planner - Your Ultimate Wedding Planning Companion",
+      "title": "KnottyPlanners - Your Ultimate Wedding Planning Companion",
       "headings": {
-        "knotty-planner": "Knotty Planner 💍🎀",
+        "knottyplanners": "KnottyPlanners 💍🎀",
         "making-wedding-planning-a-breeze": "Making Wedding Planning a Breeze! 🎉",
         "features": "Features",
-        "why-choose-knotty-planner": "Why Choose Knotty Planner?",
+        "why-choose-knottyplanners": "Why Choose KnottyPlanners?",
         "get-started-today": "Get Started Today! 🎉",
         "acknowledgements": "Acknowledgements 🙏",
         "contributors": "Contributors 🌟",
