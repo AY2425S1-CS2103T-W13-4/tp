@@ -269,13 +269,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Add a tag to a conta
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list contacts")])]),_v(" "),_c('li',[_c('p',[_v("KnottyPlanners shows a list of contacts")])]),_v(" "),_c('li',[_c('p',[_v("User requests to add a wedding tag to a specific contact in the list")])]),_v(" "),_c('li',[_c('p',[_v("KnottyPlanners adds the wedding tag to that contact")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to tag a wedding to a person")])]),_v(" "),_c('li',[_c('p',[_v("KnottyPlanners tags the person to the wedding")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given tag name is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The given contact name is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3c. The tag already exists for that contact.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3c1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The wedding is not yet created.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("1b. The given wedding name is in an invalid format.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1b1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("1c. The given contact name is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1c1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("1d. The tag already exists for that contact.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1d1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Delete a tag from a contact")])])}
@@ -320,7 +320,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to search for cont
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The given criterion is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("2b. There are no contacts that matches the name.")]),_v(" "),_c('ul',[_c('li',[_v("2ba1. KnottyPlanners shows an empty list.")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The given criterion is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("2a. There are no contacts that matches the name.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. KnottyPlanners shows an empty list.")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC07 - Search for a specific contact by job")])])}
@@ -335,7 +335,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to search for cont
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The given criterion is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("2b. There are no contacts that matches the job.")]),_v(" "),_c('ul',[_c('li',[_v("2ba1. KnottyPlanners shows an empty list.")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The given criterion is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("2a. There are no contacts that matches the job.")]),_v(" "),_c('ul',[_c('li',[_v("2a1. KnottyPlanners shows an empty list.")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Edit a contact's details")])])}
@@ -431,6 +431,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Using the relevant "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add")]),_v(" or "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add-wed")]),_v(" commands, create dummy data that is to be stored in the storage.")])]),_v(" "),_c('li',[_c('p',[_v("To simulate a corrupted file, locate the addressbok.json or weddingbook.json file in the data folder.")])]),_v(" "),_c('li',[_c('p',[_v("Delete a random line in the .json file, and relaunch KnottyPlanners.\nExpected: KnottyPlanners will launch with all previous data wiped and cleared.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 20:26:09 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 20:27:06 GMT+8]")])])])}
 }];
   
