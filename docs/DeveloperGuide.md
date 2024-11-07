@@ -598,7 +598,36 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
   Use case ends.
 
-**Use case: UC11 - Clearing Address or Wedding Book**
+**Use case: UC11 - Viewing a wedding**
+
+**MSS**
+
+1. User requests to list weddings
+2. KnottyPlanners shows a list of weddings
+3. User requests to view the participants from a specified wedding in the list
+4. KnottyPlanners shows the participants
+
+   Use case ends.
+
+**Extensions**
+
+* 2a. The list is empty.
+
+  Use case ends.
+
+* 3a. The given wedding name is invalid.
+
+    * 3a1. KnottyPlanners shows an error message.
+
+      Use case resumes at step 2.
+
+* 3b. The wedding does not exist.
+
+    * 3b1. KnottyPlanners shows an error message.
+
+      Use case resumes at step 2.
+
+**Use case: UC12 - Clearing Address or Wedding Book**
 
 **MSS**
 
