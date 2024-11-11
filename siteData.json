@@ -62,7 +62,15 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
+        "adding-a-person": "Adding a person",
         "deleting-a-person": "Deleting a person",
+        "editing-a-person": "Editing a person",
+        "filtering-a-person": "Filtering a person",
+        "adding-a-wedding": "Adding a wedding",
+        "deleting-a-wedding": "Deleting a wedding",
+        "adding-a-tag": "Adding a Tag",
+        "deleting-a-tag": "Deleting a tag",
+        "gui": "GUI",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
