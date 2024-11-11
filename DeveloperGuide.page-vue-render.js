@@ -329,7 +329,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list contacts")
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given contact details are invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The contact already exists.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. The given contact details are invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The contact already exists.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Add a tag to a contact")])])}
@@ -344,7 +344,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to tag a wedding t
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The wedding is not yet created.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("1b. The given wedding name is in an invalid format.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1b1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("1c. The given contact name is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1c1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("1d. The tag already exists for that contact.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1d1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. The wedding is not yet created.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("1b. The given wedding name is in an invalid format.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1b1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("1c. The given contact name is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1c1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 1.")])])])]),_v(" "),_c('li',[_c('p',[_v("1d. The tag already exists for that contact.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1d1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Delete a tag from a contact")])])}
@@ -434,7 +434,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list weddings")
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given wedding name is invalid or fields are missing/invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The wedding already exists.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. The given wedding name is invalid or fields are missing/invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The wedding already exists.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. KnottyPlanners shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC10 - Deleting a wedding")])])}
@@ -548,6 +548,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Using the relevant "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add")]),_v(" or "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add-wed")]),_v(" commands, create dummy data that is to be stored in the storage.")])]),_v(" "),_c('li',[_c('p',[_v("To simulate a corrupted file, locate the addressbook.json or weddingbook.json file in the data folder.")])]),_v(" "),_c('li',[_c('p',[_v("Delete a random line in the .json file, and relaunch KnottyPlanners.\nExpected: KnottyPlanners will launch with all previous data wiped and cleared.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 16:46:51 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 17:21:58 GMT+8]")])])])}
 }];
   
