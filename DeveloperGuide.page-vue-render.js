@@ -224,7 +224,7 @@ with(this){return _c('p',[_c('strong',[_v("4. Allow Copying of Information")])])
 with(this){return _c('p',[_c('strong',[_v("Currently:")]),_v(" KnottyPlanners is optimised for keyboard usage, and direct copying of information from the GUI is not supported.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Plan:")]),_v(" To allow the users of KnottyPlanners to copy information directly from the contact or wedding cards, in order to facilitate mouse usage.")])}
+with(this){return _c('p',[_c('strong',[_v("Plan:")]),_v(" To allow the users of KnottyPlanners to copy information directly from the contact or wedding cards, in order to facilitate mouse usage. We will also include a feature to export the information to a text file or csv file for easy sharing.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("5. Support for Long Inputs")])])}
@@ -242,7 +242,7 @@ with(this){return _c('p',[_c('strong',[_v("6. Index Referencing")])])}
 with(this){return _c('p',[_c('strong',[_v("Currently:")]),_v(" KnottyPlanner requires users to select the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" from their names in order to reduce ambiguity. However, this can result in inefficiency when handling extremely long names.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Plan:")]),_v(" To allow users to reference the contact or wedding based on their index in the list, ensuring that the efficiency of KnottyPlanners is maintained.")])}
+with(this){return _c('p',[_c('strong',[_v("Plan:")]),_v(" To allow users to reference the contact or wedding based on their index in the list, in addition to our current implementation. This ensures that the efficiency of KnottyPlanners is maintained.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("7. Further CLI Support")])])}
@@ -260,7 +260,7 @@ with(this){return _c('p',[_c('strong',[_v("8. Contacts and Weddings Visibility")
 with(this){return _c('p',[_c('strong',[_v("Currently:")]),_v(" The address and wedding lists are in two separate views to help the wedding planner to be more focused and reduce cluttering of information. This can lead to an additional need to toggle between the wedding book and address book to recall the names of the wedding.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Plan:")]),_v(" To have an integrated view contains both the persons and weddings, allowing the association of persons to weddings to be done with less memory work.")])}
+with(this){return _c('p',[_c('strong',[_v("Plan:")]),_v(" To have an integrated view that contains both the persons and weddings side by side, allowing the association of persons to weddings to be done with less memory work.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("9. Comprehensive Language Support")])])}
@@ -476,7 +476,7 @@ with(this){return _c('ol',[_c('li',[_v("The system should work on any "),_c('em'
 with(this){return _c('h3',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#glossary","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Contact:")]),_v(" An individual or organization associated with wedding planning, such as a client or vendor.")]),_v(" "),_c('li',[_c('strong',[_v("Job:")]),_v(" Role of a person during the weddings, e.g., caterers, florists, or photographer.")]),_v(" "),_c('li',[_c('strong',[_v("Wedding Tag:")]),_v(" A label assigned to a contact to associate them with a specific wedding event, can be assigned to\nmultiple contacts involved in the same wedding event.")]),_v(" "),_c('li',[_c('strong',[_v("AddressBook:")]),_v(" The main data model that represents the collection of all 'Person' objects within KnottyPlanners.")]),_v(" "),_c('li',[_c('strong',[_v("WeddingBook:")]),_v(" The data model that represents the collection of all 'Wedding' objects within KnottyPlanners.")]),_v(" "),_c('li',[_c('strong',[_v("Priority:")]),_v(" The relative importance of a user story or task, often categorized as must-have, should-have,\nor could-have.")]),_v(" "),_c('li',[_c('strong',[_v("Success/Failure Messages:")]),_v(" Feedback provided to the user indicating the outcome of a command\n(e.g., contact successfully added or an error message).")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("Contact:")]),_v(" An individual or organization associated with wedding planning, such as a client or vendor.")]),_v(" "),_c('li',[_c('strong',[_v("Job:")]),_v(" Role of a person during the weddings, e.g., caterers, florists, or photographer.")]),_v(" "),_c('li',[_c('strong',[_v("Wedding Tag:")]),_v(" A label assigned to a contact to associate them with a specific wedding event, can be assigned to\nmultiple contacts involved in the same wedding event.")]),_v(" "),_c('li',[_c('strong',[_v("AddressBook:")]),_v(" The main data model that represents the collection of all 'Person' objects within KnottyPlanners.")]),_v(" "),_c('li',[_c('strong',[_v("WeddingBook:")]),_v(" The data model that represents the collection of all 'Wedding' objects within KnottyPlanners.")]),_v(" "),_c('li',[_c('strong',[_v("Priority:")]),_v(" The relative importance of a user story or task, often categorized as must-have, should-have,\nor could-have.")]),_v(" "),_c('li',[_c('strong',[_v("Success/Failure Messages:")]),_v(" Feedback provided to the user indicating the outcome of a command\n(e.g., contact successfully added or an error message).")]),_v(" "),_c('li',[_c('strong',[_v("Confirmation Prompt:")]),_v(" A message that asks the user to confirm an action before proceeding (e.g., deleting a contact).")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing"}},[_c('strong',[_v("Appendix: Instructions for manual testing")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-instructions-for-manual-testing","onclick":"event.stopPropagation()"}})])}
@@ -548,6 +548,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Using the relevant "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add")]),_v(" or "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add-wed")]),_v(" commands, create dummy data that is to be stored in the storage.")])]),_v(" "),_c('li',[_c('p',[_v("To simulate a corrupted file, locate the addressbook.json or weddingbook.json file in the data folder.")])]),_v(" "),_c('li',[_c('p',[_v("Delete a random line in the .json file, and relaunch KnottyPlanners.\nExpected: KnottyPlanners will launch with all previous data wiped and cleared.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 21:00:49 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Tue, 12 Nov 2024, 10:32:09 GMT+8]")])])])}
 }];
   
